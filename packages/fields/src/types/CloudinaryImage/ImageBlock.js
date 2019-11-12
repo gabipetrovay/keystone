@@ -52,7 +52,7 @@ export class ImageBlock extends Block {
           from: {
             type: RelationshipType,
             isRequired: true,
-            ref: `${joinList}.${this.path}`,
+            ref: `${joinList}`,
             schemaDoc:
               'A reference back to the Slate.js Serialised Document this image is embedded within',
           },
